@@ -1,0 +1,101 @@
+/*Fondo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f3c7d5, #d4b3e6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*Contenedor del formulario */
+#registro-form {
+    background-color: #fff6faee;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(172, 110, 173, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+/*Fuente general dentro del formulario */
+.formulario {
+    font-family: "Poppins", sans-serif;
+}
+
+/*Título principal */
+.titulo {
+    font-family: "Lobster", cursive;
+    text-align: center;
+    color: #8b5fbf; 
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Etiquetas */
+.etiqueta {
+    display: block;
+    margin-top: 10px;
+    color: #4b3a50;
+    font-weight: 600;
+}
+
+/*Campos de texto */
+.campo {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #d2a8d8;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+/*Efecto al enfocar */
+.campo:focus {
+    border-color: #b96ccc;
+    outline: none;
+    box-shadow: 0 0 6px rgba(185, 108, 204, 0.5);
+}
+
+/*Opciones */
+.opcion input {
+    margin-right: 6px;
+}
+
+/* Botón principal */
+.boton {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #c17ccf; /* palo rosa-lila */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s, box-shadow 0.2s;
+}
+
+.boton:hover {
+    background-color: #a45dbf; /* lila profundo */
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(164, 93, 191, 0.4);
+}
+
+/*Subtítulos y términos */
+.subtitulo,
+.terminos {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #5b4765;
+}
+
+
